@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: radial-gradient(120% 120% at 50% 0%, #211F3B 0%, #060710 60%, #040407 100%);
+  color: #F5F7FF;
+}
+
+* {
+  box-sizing: border-box;
+}
